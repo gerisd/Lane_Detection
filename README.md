@@ -12,6 +12,6 @@
 * main.py: Uses LaneDetection class on input images to find lanes and display them  
 
 ## Results
-![Lane Detection Results](lane1.png)
-![Lane Detection Results](lane2.png)
-![Lane Detection Results](lane3.png)
+![Lane Detection Results](Results/lane1.png)
+![Lane Detection Results](Results/lane2.png)
+![Lane Detection Results](Results/lane3.png)
