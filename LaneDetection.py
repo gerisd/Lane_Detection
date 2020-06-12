@@ -18,7 +18,7 @@ class LaneDetection:
 		H, W = image.shape[:2]
 
 
-							#Left bottom, Left top,   		   Mid-left,   			Mid-Right,  	Right top,      Right bottom	
+				    #Left bottom,  Left top,   	   Mid-left,   		Mid-Right,  	    Right top,      Right bottom	
 		vertices = np.array([[80, H-35], [80, H*0.85], [(W/2)-70, (H/2)+20], [(W/2)+30, (H/2)+20], [W-190, H*0.85], [W-190, H-35]], np.int32)
 
 		mask = np.zeros_like(image)
